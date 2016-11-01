@@ -6,22 +6,8 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		7EF751F31DC8807C002853FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF751F21DC8807C002853FA /* AppDelegate.swift */; };
-		7EF751F51DC8807C002853FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF751F41DC8807C002853FA /* ViewController.swift */; };
-		7EF751F81DC8807C002853FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF751F61DC8807C002853FA /* Main.storyboard */; };
-		7EF751FA1DC8807C002853FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EF751F91DC8807C002853FA /* Assets.xcassets */; };
-		7EF751FD1DC8807C002853FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF751FB1DC8807C002853FA /* LaunchScreen.storyboard */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		7EF751EF1DC8807C002853FA /* testGithub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testGithub.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7EF751F21DC8807C002853FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7EF751F41DC8807C002853FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7EF751F71DC8807C002853FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7EF751F91DC8807C002853FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7EF751FC1DC8807C002853FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7EF751FE1DC8807C002853FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EF751EF1DC8807C002853FA /* testGithub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = testGithub.app; path = "/Users/medzhitbayramov/Projects/XCode/testGithub/build/Debug-iphoneos/testGithub.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,30 +24,7 @@
 		7EF751E61DC8807C002853FA = {
 			isa = PBXGroup;
 			children = (
-				7EF751F11DC8807C002853FA /* testGithub */,
-				7EF751F01DC8807C002853FA /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		7EF751F01DC8807C002853FA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7EF751EF1DC8807C002853FA /* testGithub.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7EF751F11DC8807C002853FA /* testGithub */ = {
-			isa = PBXGroup;
-			children = (
-				7EF751F21DC8807C002853FA /* AppDelegate.swift */,
-				7EF751F41DC8807C002853FA /* ViewController.swift */,
-				7EF751F61DC8807C002853FA /* Main.storyboard */,
-				7EF751F91DC8807C002853FA /* Assets.xcassets */,
-				7EF751FB1DC8807C002853FA /* LaunchScreen.storyboard */,
-				7EF751FE1DC8807C002853FA /* Info.plist */,
-			);
-			path = testGithub;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,7 +73,7 @@
 				Base,
 			);
 			mainGroup = 7EF751E61DC8807C002853FA;
-			productRefGroup = 7EF751F01DC8807C002853FA /* Products */;
+			productRefGroup = 7EF751E61DC8807C002853FA;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -124,9 +87,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EF751FD1DC8807C002853FA /* LaunchScreen.storyboard in Resources */,
-				7EF751FA1DC8807C002853FA /* Assets.xcassets in Resources */,
-				7EF751F81DC8807C002853FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,31 +97,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EF751F51DC8807C002853FA /* ViewController.swift in Sources */,
-				7EF751F31DC8807C002853FA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		7EF751F61DC8807C002853FA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7EF751F71DC8807C002853FA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7EF751FB1DC8807C002853FA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7EF751FC1DC8807C002853FA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7EF751FF1DC8807C002853FA /* Debug */ = {
